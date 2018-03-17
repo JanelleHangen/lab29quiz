@@ -1,0 +1,95 @@
+/* body{
+    background-color: magenta;/'The style block is also called a css "rule",
+    "body" is called the selector, open up style block and have a property and value'
+} */
+/* DRY - Don't Repeat Yourself! */
+/* w3 Schools - a great place to learn these code shortcuts */
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: Arial;
+}
+body {
+  background-color: teal;
+  /* #EB5D56; */
+}
+
+main {
+  width: 50%;
+  min-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+header {
+  overflow: auto;
+}
+
+header p {
+  width: 50%;
+  float: left;
+}
+
+header p span {
+  display: block;
+  font-size: 30px;
+}
+
+.questions {
+  text-align: left;
+}
+
+.score {
+  text-align: right;
+}
+
+h2 {
+  margin: 50px 0px;
+  clear: both;
+  font-size: 24px;
+  font-weight: bold;
+  color: purple;
+}
+
+li {
+  background-color: #333;
+  padding: 10px;
+  font-size: 18px;
+  margin: 15px auto;
+  border-radius: 25px;
+  width: 75%;
+  cursor: pointer;
+}
+
+li:hover, li.selected {
+  background-color: green;
+}
+
+a {
+  width: 50%;
+  background-color: #ccc;
+  padding: 10px 25px;
+  font-size: 25px;
+  margin: 25px;
+  display: inline-block;
+}
+
+a.ready {
+  background-color: orange;
+}
+
+a.restart {
+  backround-color: orange;
+}
+/*CSS Box Mode: Margin - Border - Padding - Content - <1h1>*/
